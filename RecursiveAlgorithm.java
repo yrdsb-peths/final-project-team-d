@@ -1,5 +1,5 @@
 public static void recursive(int[] lines, int[][] networkMatrix, int row,int lastRow)
-    {       
+{       
         wasHere[row][value((int)use.sumArr(lines))]=true;
         if(min<sum(lines)) return;
         if(isAllNotMinus1000(lines)) min=sum(lines); 
@@ -15,4 +15,4 @@ public static void recursive(int[] lines, int[][] networkMatrix, int row,int las
             if(wasHere[i][value((int)use.sumArr(copyOfLines))]) continue;
             if(min<sum(copyOfLines)) continue;
             recursive(copyOfLines,copyOfMatrix,i,row);
-        }
+}
