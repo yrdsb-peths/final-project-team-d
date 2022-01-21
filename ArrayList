@@ -1,0 +1,5 @@
+Collection<String> stringList = new ArrayList<String>();
+//Client side
+stringList = new LinkedList<String>();
+
+stringList = new HashSet<String>();
